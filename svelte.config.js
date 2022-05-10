@@ -6,6 +6,11 @@ const config = {
 		adapter: adapter({ out: 'build' }),
 		files: {
 			lib: 'src/lib'
+		},
+		vite: {
+			server: {
+				port: 8000
+			}
 		}
 	}
 };
